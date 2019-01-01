@@ -32,7 +32,6 @@ namespace Grades.Test
             Assert.AreEqual(10, result.LowestGrade);
         }
 
-
         [TestMethod]
         public void ComputesAverageGrade()
         {
@@ -44,7 +43,5 @@ namespace Grades.Test
             GradeStatistics result = book.ComputeStatistics();
             Assert.AreEqual(85.16, result.AverageGrade, 0.01);
         }
-
-
     }
 }
